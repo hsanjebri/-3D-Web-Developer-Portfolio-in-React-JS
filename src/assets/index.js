@@ -20,12 +20,18 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import clinivia from  "./tech/image.png";
+import dari from  "./tech/dari.png";
+
+;
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import accompanyConsulting from "./company/accompanyConsulting.png";
+import esprit from "./company/esprit1.png";
+import Freelancer from "./company/freelancer.jpeg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -56,7 +62,12 @@ export {
   shopify,
   starbucks,
   tesla,
+  esprit,
+  Freelancer,
   carrent,
+  clinivia,
+  dari,
   jobit,
+  accompanyConsulting,
   tripguide,
 };

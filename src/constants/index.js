@@ -18,8 +18,13 @@ import {
   meta,
   starbucks,
   tesla,
+  dari,
+  accompanyConsulting,
+  esprit,
+  Freelancer,
   shopify,
   carrent,
+  clinivia,
   jobit,
   tripguide,
   threejs,
@@ -42,11 +47,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: " Full-Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Flutter Enthusiast",
     icon: mobile,
   },
   {
@@ -54,7 +59,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Visionary Tech Architect",
     icon: creator,
   },
 ];
@@ -116,55 +121,55 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineering Student",
+    company_name: "ESPRIT",
+    icon: esprit,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "2022 - 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+    "Building a strong foundation in software engineering through rigorous academic coursework.",
+      "Engaged in various projects, enhancing problem-solving, teamwork, and leadership skills.",
+      "Specializing in web and mobile application development, with a focus on real-world solutions.",
+      "Collaborating with peers and mentors to drive innovative approaches to technology.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Software Engineering Intern",
+    company_name: "Accompany Consulting",
+    icon: accompanyConsulting, // Replace with the actual icon variable or path
+    iconBg: "#383E56",
+    date: "June 2023 - August 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Contributed to the migration of a legacy banking application, MRO BH, to a microservices architecture.",
+      "Developed, tested, and deployed scalable microservices to enhance application performance and modularity.",
+      "Collaborated with cross-functional teams to ensure a smooth transition and minimal downtime.",
+      "Gained expertise in modern software engineering practices, including CI/CD and API integration.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Mobile App Development Intern",
+    company_name: "AccompanyConsulting",
+    icon: accompanyConsulting,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and optimized mobile applications to improve user engagement and functionality.",
+      "Collaborated with cross-disciplinary teams to deliver projects within defined timelines.",
+      "Performed code debugging and ensured application performance met user expectations.",
+      "Participated in the end-to-end lifecycle of app development, from ideation to deployment.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Full Stack Developer (Personal Projects)",
+    company_name: "Freelance",
+    icon: Freelancer,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Ongoing",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and developed full-stack applications addressing real-world challenges.",
+      "Demonstrated adaptability by utilizing diverse tools and frameworks to achieve project goals.",
+      "Created user-centric, scalable, and efficient solutions for personal and community use.",
+      "Continuously enhanced technical expertise through independent learning and innovation.",
     ],
   },
 ];
@@ -198,65 +203,104 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Clinvia",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    "A healthcare management platform designed to streamline patient bookings, doctor schedules, and medical records. This platform bridges the gap between patients and healthcare providers by offering an intuitive and efficient solution for managing healthcare services.",
     tags: [
       {
-        name: "react",
+        name: "Spring Boot",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Angular",
+        color: "red-text-gradient",
+      },
+      {
+        name: "TensorFlow",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "AI Integration",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "NLP",
+        color: "purple-text-gradient",
       },
-    ],
-    image: carrent,
+      {
+        name: "Healthcare Analytics",
+        color: "teal-text-gradient",
+      },
+    ]
+    ,
+    image: clinivia,
+    source_code_link: "https://github.com/hsanjebri/clinivia-angular",
+  },
+  {
+    name: "Dari Real Estate Platform",
+    description:
+      "A feature-rich real estate application that empowers users to buy, sell, rent, and estimate property value with ease. Dari integrates advanced functionalities such as credit simulation, subscription management, and online furniture sales by navigating the real estate market.",
+      tags: [
+        {
+          name: "Spring Boot",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Angular",
+          color: "red-text-gradient",
+        },
+        {
+          name: "Keycloak",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Power BI",
+          color: "purple-text-gradient",
+        },
+        {
+          name: "Docker",
+          color: "teal-text-gradient",
+        },
+        {
+          name: "Jenkins",
+          color: "yellow-text-gradient",
+        },
+      ],
+      
+    image: dari,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "EduTrack LMS",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    "A comprehensive Learning Management System designed to enhance the educational experience for both students and educators. EduTrack offers tools for course management, progress tracking, and interactive learning, making education more accessible and efficient.",
     tags: [
       {
-        name: "react",
+        name: "Spring Boot",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Angular",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Keycloak",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
+        name: "Power BI",
+        color: "purple-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "Docker",
+        color: "teal-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "Jenkins",
+        color: "yellow-text-gradient",
       },
-    ],
+    ]
+    ,
     image: tripguide,
     source_code_link: "https://github.com/",
   },
