@@ -34,10 +34,10 @@ const FeedbackCard = ({
         </div>
 
         <img
-          src={image}
-          alt={`feedback_by-${name}`}
-          className='w-10 h-10 rounded-full object-cover'
-        />
+  src={image}
+  alt={`feedback_by-${name}`}
+  className='w-9 h-9 rounded-full object-cover' // Reduced size
+/>
       </div>
     </div>
   </motion.div>

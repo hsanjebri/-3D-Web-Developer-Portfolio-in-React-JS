@@ -24,7 +24,7 @@ import clinivia from  "./tech/image.png";
 import dari from  "./tech/dari.png";
 
 ;
-
+import ibm from "./company/ibm.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -59,6 +59,7 @@ export {
   typescript,
   threejs,
   meta,
+  ibm,
   shopify,
   starbucks,
   tesla,

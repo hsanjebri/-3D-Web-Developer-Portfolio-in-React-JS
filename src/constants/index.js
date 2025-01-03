@@ -19,6 +19,7 @@ import {
   starbucks,
   tesla,
   dari,
+  ibm,
   accompanyConsulting,
   esprit,
   Freelancer,
@@ -177,18 +178,18 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
+      "Comprehensive training in front-end, back-end, and cloud-native development.",
+      name: "IBM Full Stack Software Developer",
+      designation: "IBM via Coursera",
     company: "Acme Co",
-    image: "",
+    image: ibm,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "Professional certification in Agile and project management methodologies.",
+    name: "Google Project Management Certificate",
     designation: "COO",
-    company: "DEF Corp",
+    company: "Google via Coursera",
     image: "",
   },
   {
