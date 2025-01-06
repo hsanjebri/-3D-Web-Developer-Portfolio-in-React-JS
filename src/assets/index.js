@@ -24,6 +24,8 @@ import clinivia from  "./tech/image.png";
 import dari from  "./tech/dari.png";
 
 ;
+import learn from "./company/learnquest.png";
+import google from "./company/google.png";
 import ibm from "./company/ibm.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -60,6 +62,8 @@ export {
   threejs,
   meta,
   ibm,
+  learn,
+  google,
   shopify,
   starbucks,
   tesla,

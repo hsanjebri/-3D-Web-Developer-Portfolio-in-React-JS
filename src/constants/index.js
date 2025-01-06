@@ -20,6 +20,8 @@ import {
   tesla,
   dari,
   ibm,
+  learn,
+  google,
   accompanyConsulting,
   esprit,
   Freelancer,
@@ -137,7 +139,7 @@ const experiences = [
   {
     title: "Software Engineering Intern",
     company_name: "Accompany Consulting",
-    icon: accompanyConsulting, // Replace with the actual icon variable or path
+    icon: accompanyConsulting, 
     iconBg: "#383E56",
     date: "June 2023 - August 2023",
     points: [
@@ -179,28 +181,33 @@ const testimonials = [
   {
     testimonial:
       "Comprehensive training in front-end, back-end, and cloud-native development.",
-      name: "IBM Full Stack Software Developer",
-      designation: "IBM via Coursera",
-    company: "Acme Co",
-    image: ibm,
+    name: "IBM Full Stack Software Developer",
+    designation: "IBM via Coursera",
+    company: "Certification",
+    image: ibm, // Add the image for the certificate, or leave empty if not available
+    link: "https://coursera.org/share/89312d27543ea3e34644a8570da7ca39", // Certificate URL
   },
   {
     testimonial:
       "Professional certification in Agile and project management methodologies.",
     name: "Google Project Management Certificate",
-    designation: "COO",
-    company: "Google via Coursera",
-    image: "",
+    designation: "Google via Coursera",
+    company: "Certification",
+    image: google, // Add an image URL or keep it empty
+    link: "https://www.coursera.org/account/accomplishments/specialization/certificate/ZWXZ4DELLPPN", // Certificate URL
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "",
+      "Learn the fundamentals of Agile Scrum, including team roles, Sprint events, and artifacts, to build incrementally and deliver value effectively",
+    name: "Introduction to Scrum Master Training",
+    designation: "LearnQuest",
+    company: "LearnQuest",
+    image: learn, // Add an image URL or keep it empty
+    link: "https://www.coursera.org/account/accomplishments/verify/EDZ5K5T2M4E2", // Certificate URL
   },
 ];
+
+
 
 const projects = [
   {
