@@ -33,23 +33,36 @@ const Navbar = () => {
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
-      <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
-        <Link
-          to='/'
-          className='flex items-center gap-2'
-          onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
-          }}
-        >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Hassan jebri &nbsp;
-            <span className='sm:block hidden'> | software engineer </span>
-          </p>
-        </Link>
+      <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
+        {/* Logo and Name Section */}
+        <div className="flex items-center gap-4">
+          <Link
+            to="/"
+            className="flex items-center gap-2"
+            onClick={() => {
+              setActive("");
+              window.scrollTo(0, 0);
+            }}
+          >
+            <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+            <p className="text-white text-[18px] font-bold cursor-pointer flex">
+              Hassan Jebri &nbsp;
+              <span className="sm:block hidden"> | Software Engineer </span>
+            </p>
+          </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+          {/* Download CV Button */}
+          <a
+            href="https://github.com/hsanjebri/mycv.git" // Replace with the actual path to your CV
+            download
+            className="bg-gradient-to-r from-purple-500 to-blue-500 text-white font-bold py-2 px-6 rounded-full shadow-lg hover:shadow-xl hover:from-purple-600 hover:to-blue-600 transition-all duration-300 ease-in-out transform hover:scale-105"
+          >
+            Download CV
+          </a>
+        </div>
+
+        {/* Navigation Links */}
+        <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -63,11 +76,12 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        {/* Mobile Menu */}
+        <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
-            alt='menu'
-            className='w-[28px] h-[28px] object-contain'
+            alt="menu"
+            className="w-[28px] h-[28px] object-contain"
             onClick={() => setToggle(!toggle)}
           />
 
@@ -76,7 +90,7 @@ const Navbar = () => {
               !toggle ? "hidden" : "flex"
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
-            <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
+            <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}
