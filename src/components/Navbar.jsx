@@ -50,15 +50,6 @@ const Navbar = () => {
               <span className="sm:block hidden"> | Software Engineer </span>
             </p>
           </Link>
-
-          {/* Download CV Button */}
-          <a
-            href="https://github.com/hsanjebri/mycv.git" // Replace with the actual path to your CV
-            download
-            className="bg-gradient-to-r from-purple-500 to-blue-500 text-white font-bold py-2 px-6 rounded-full shadow-lg hover:shadow-xl hover:from-purple-600 hover:to-blue-600 transition-all duration-300 ease-in-out transform hover:scale-105"
-          >
-            Download CV
-          </a>
         </div>
 
         {/* Navigation Links */}
@@ -75,6 +66,19 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+
+        {/* Download CV Button */}
+        <div className="hidden sm:flex">
+        <a
+  href="https://github.com/hsanjebri/mycv.git" // Replace with the actual path to your CV
+  download
+  className="relative inline-block px-6 py-3 font-bold text-white border-2 border-white rounded-full group overflow-hidden"
+>
+  <span className="absolute inset-0 w-0 h-full bg-gradient-to-r from-purple-500 to-blue-500 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+  <span className="relative z-10">Download CV</span>
+</a>
+
+        </div>
 
         {/* Mobile Menu */}
         <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -105,6 +109,25 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              {/* Add CV Download Button in Mobile View */}
+              <li>
+                <a
+                  href="https://github.com/hsanjebri/mycv.git" // Replace with the actual path to your CV
+                  download
+                  className="bg-gradient-to-r from-purple-500 to-blue-500 text-white font-bold py-2 px-6 rounded-full shadow-lg hover:shadow-xl hover:from-purple-600 hover:to-blue-600 transition-all duration-300 ease-in-out transform hover:scale-105"
+                >
+                  Download CV
+                </a>
+                <a
+            href="https://www.linkedin.com/in/hassan-jebri-27b232265/" // Replace with your LinkedIn profile URL
+            target="_blank"
+            rel="noopener noreferrer"
+            className="relative inline-block px-6 py-3 font-bold text-white border-2 border-white rounded-full group overflow-hidden"
+          >
+            <span className="absolute inset-0 w-0 h-full bg-gradient-to-r from-blue-500 to-blue-700 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+            <span className="relative z-10">LinkedIn</span>
+          </a>
+              </li>
             </ul>
           </div>
         </div>

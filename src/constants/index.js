@@ -242,7 +242,7 @@ const projects = [
     ]
     ,
     image: clinivia,
-    source_code_link: "https://github.com/hsanjebri/clinivia-angular",
+    source_code_link: "https://github.com/hsanjebri/clinivia-angular.git",
   },
   {
     name: "Dari Real Estate Platform",
@@ -276,7 +276,7 @@ const projects = [
       ],
       
     image: dari,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/hsanjebri/Dari.git",
   },
   {
     name: "EduTrack LMS",
