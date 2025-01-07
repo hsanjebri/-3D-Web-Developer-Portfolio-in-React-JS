@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://hsanjebri.github.io/3D-Web-Developer-Portfolio-in-React-JS",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
